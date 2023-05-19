@@ -12,7 +12,13 @@ module.exports = {
       fontFamily: {
         main: ["Noto Sans JP", "sans-serif"],
       },
+      colors: {
+        bg: '#F5F5F5',
+      },
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    darkTheme: false,
+  },
 }

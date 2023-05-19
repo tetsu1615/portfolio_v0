@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/*fontの設定*/
-main {
+/* font-family */
+html {
   @apply font-main font-medium;
-}
-
-p {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 10rem;
+  background-color: #f5f5f5;
 }

@@ -2,9 +2,9 @@ import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
-    <>
-      <p className='text-center text-blue-500'>Next.js + TypeScript + SCSS + ESLint + Prettier + stylelint + Jest + React Testing Library + Cypress</p>
-    </>
+    <div className='min-h-full'>
+      <h1 className='text-3xl text-black text-center mt-20'>Ittetsu Takaki - Portfolio Site</h1>
+    </div>
   );
 };
 
