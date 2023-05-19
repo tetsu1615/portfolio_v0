@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family */
+html {
+  @apply font-main font-medium;
+  background-color: #f5f5f5;
+}
