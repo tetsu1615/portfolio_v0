@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: "jit",
-  purge: {
+  // NOTE: https://github.com/Acidic9/prettier-plugin-tailwind/issues/29
+  mode: process.env.NODE_ENV ? 'jit' : undefined,
+  content: {
     content: [
       './src/**/*.{js,ts,jsx,tsx}',
     ],
   },
-  content: [],
   theme: {
     extend: {
       fontFamily: {
